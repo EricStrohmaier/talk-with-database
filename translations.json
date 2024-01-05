@@ -1,7 +1,7 @@
 {
     "en": {
         "general": {
-            "start-message": "Hey there, I’m your friendly Bitvocation bot! 👋 \nI scrape the internet for all the latest job openings in Bitcoin and post them in the @bitvocationfeed.\n",
+            "start-message": "Hey there",
             "help": "Here are the commands you can use to work with me: \n\n",
             "language-switch": "Language is now english.",
             "donate": "Does my work make your life easier?\n\nSend some sats to my creators if you’d like to reward them in a value-for-value manner! They'll appreciate it and be able to provide me with more and more valuable features",

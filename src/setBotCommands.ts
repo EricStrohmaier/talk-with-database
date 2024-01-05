@@ -11,5 +11,18 @@ export function setBotCommands(
           'command-descriptions'
       ].start,
         },
+        {
+            command:'post',
+            description:'Create a Instagram Post',
+        },
+        {
+            command:'story',
+            description:'Create a Instagram Story',
+        },
+        {
+            command:'video',
+            description:'Create a Instagram Video',
+        }
+        
     ]);
 }
