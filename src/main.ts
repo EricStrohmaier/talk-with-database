@@ -3,8 +3,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 import TelegramBot from 'node-telegram-bot-api';
 import { setBotCommands } from './setBotCommands';
-import {postStoryToInsta, postToInsta, postVideoToInsta } from './functions';
-import { main } from './linkedintest';
+import {getPostFeed, parsString, postStoryToInsta, postToInsta, postVideoToInsta } from './functions';
 
 if (!process.env.TELEGRAM_BOT_API_KEY) {
     console.error('Please provide your bot\'s API key on the .env file.');
@@ -21,7 +20,8 @@ setBotCommands(bot);
 // Messages for conversations.
 bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
-  
+    getPostFeed()
+    // parsString()
     
 });
 
